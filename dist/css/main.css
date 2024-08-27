@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-section {
+  width: 100%;
+  height: 313px;
+  background-color: #D1D6E0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.primary-section .section-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 776px;
+  margin: 0 auto;
+}
+.primary-section img {
+  width: 250px;
+  height: 313px;
+  margin-right: 20px;
+}
+.primary-section .text-content {
+  flex: 1;
+  color: #01a3a4;
+  text-align: right;
+}
+.primary-section h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.primary-section p {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+.especialistas-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+.especialistas-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #01a3a4;
+}
+.especialistas-section .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.especialistas-section .especialista {
+  background-color: #D1D6E0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.especialistas-section .especialista img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.especialistas-section .especialista p {
+  font-size: 1.1em;
+  color: #333;
+}
+.especialistas-section .especialista p:first-of-type {
+  font-weight: bold;
+}
+.especialistas-section .especialista .especialidade {
+  font-size: 0.9em;
+  color: #777;
+}
+
+/*# sourceMappingURL=main.css.map */
